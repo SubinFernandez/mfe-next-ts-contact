@@ -1,0 +1,33 @@
+.root {
+  margin: 50px auto;
+  max-width: 450px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.25);
+}
+
+.contact_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffeaa7;
+  padding: 5px 10px;
+  margin-top: 25px;
+  border: 1px dashed #ddd;
+  border-radius: 4px;
+
+  &__icon {
+    margin-right: 16px;
+  }
+
+  &__phone_number {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.container {
+  padding: 0 20px;
+}
